@@ -22,3 +22,7 @@ s = new WebSocket("ws://localhost:{}");
 s.onmessage = (event) => console.log(event.data);
 s.send("Hi");
 ```
+
+## License
+
+[Public domain (CC0)](https://creativecommons.org/public-domain/cc0/)
